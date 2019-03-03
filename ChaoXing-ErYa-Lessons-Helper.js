@@ -2,6 +2,7 @@
 // @icon            https://ss0.baidu.com/73t1bjeh1BF3odCf/it/u=3507160010,2121752339&fm=77&s=1947387E66836BF52423D3FB0300A01E
 // @name                        超星尔雅课程助手
 // @description                课程自动切换，自动静音播放（默认静音），播放线路切换（手动配置参数）
+// @author                        HollowMan
 // @supportURL      https://github.com/HollowMan6/ChaoXing-ErYa-Lessons-Helper
 // @match                        *://*.chaoxing.com/mycourse/*
 // @requier         https://mooc1-1.chaoxing.com/js/build/jquery.js
