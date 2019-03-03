@@ -1,0 +1,18 @@
+﻿{
+    "manifest_version": 2,
+  
+    "name": "超星尔雅课程助手",
+    "description": "课程自动切换，自动静音播放（默认静音），播放线路切换（手动配置参数）",
+    "version": "1.0",
+  
+    "icons": {
+      "64" : "icon.png"
+    },
+    "permissions": [
+      "tabs", "tabs", "http://*/*","https://*/*"
+    ],
+    "web_accessible_resources": ["ChaoXing-ErYa-Lessons-Helper.js"],
+    "content_scripts": [
+      {"js":["inject.js"],"matches":["*://*.chaoxing.com/mycourse/*"]}
+    ]
+  }

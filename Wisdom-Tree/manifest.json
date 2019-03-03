@@ -1,0 +1,17 @@
+﻿{
+    "manifest_version": 2,
+  
+    "name": "智慧树课程助手",
+    "description": "课程自动切换，自动1.5倍速播放 ",
+    "version": "1.0",
+    "icons": {
+      "64" : "icon.png"
+    },
+    "permissions": [
+      "tabs", "tabs", "http://*/*","https://*/*"
+    ],
+    "web_accessible_resources": ["Wisdom-Tree-Lessons-Helper.js"],
+    "content_scripts": [
+      {"js":["inject.js"],"matches":["*://study.zhihuishu.com/learning/videoList*"]}
+    ]
+  }
