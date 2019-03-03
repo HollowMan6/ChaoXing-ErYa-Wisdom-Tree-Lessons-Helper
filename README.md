@@ -20,7 +20,7 @@
 
 建议在一些微信公众号如：**小马搜题订阅号，问答库，殿下网络互联** 等的帮助下，题目自己手动做；
 
-***已知问题***：已经显示完成的视频将无法自动切换线路。
+***已知问题***：已经显示完成的视频再次播放或自动播放的过程中手动进行跳转视频的操作将无法自动切换线路。
 
 ## 配置播放线路
 
@@ -67,7 +67,7 @@ If you want more functions, such as automatic doing quizs, a lesson done in 5 se
 
 It is suggested that with the help of some Wechat public accounts such as **小马搜题订阅号，问答库，殿下网络互联** , the questions after each lesson should be done **by yourself**.
 
-Known problem: Video that has been displayed will not automatically switch play lines.
+Known problem: The manual operation of jumping video in the process of replaying or playing the completed video will not automatically switch the Play line.
 
 ## Configuration of playback lines
 

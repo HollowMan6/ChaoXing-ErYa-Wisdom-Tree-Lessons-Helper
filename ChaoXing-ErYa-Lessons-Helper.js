@@ -12,7 +12,7 @@
 var fa = $("body");
 var btn = $("<li></li>");
 var json = {
-    "background": "#DC143C",
+    "background": "#31E16D",
     "height": "16px",
     "padding": "5px",
     "z-index": 999999,
