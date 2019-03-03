@@ -56,7 +56,7 @@ Just **click the button** when you open it. **Refresh the page** if you want to 
 If you find the the authentication code or questions block you from playing video annoying, try and recommend adding this custom rule to the AdBlock Plus grammar-compatible ad filtering extension as well:
 
 ```JavaScript
-\*.chaoxing.com/richvideo/initdatawithviewer\*
+*.chaoxing.com/richvideo/initdatawithviewer*
 ```
 
 ## Functions
