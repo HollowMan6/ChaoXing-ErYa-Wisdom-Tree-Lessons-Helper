@@ -44,7 +44,7 @@ playline[1].nextElementSibling.click();
 
 因为时间有限，所以脚本做得有些简单，很有可能不太稳定，欢迎大家进行完善。
 
-测试时间：2019年3月2日，不能保证脚本一直有效；
+测试时间：2019年3月2日，不能保证脚本在此之后一直有效；
 
 
 ## English version
@@ -94,4 +94,4 @@ If you don't want to switch lines, you can clean up the parts included in the no
 
 Because of the limited time, the script is a little simple and probably not stable. Modifying and improving it is welcomed.
 
-Test time: March 2, 2019, can not guarantee that the script has been valid;
+Test time: March 2, 2019, can not guarantee that the script will be always valid after the date;
