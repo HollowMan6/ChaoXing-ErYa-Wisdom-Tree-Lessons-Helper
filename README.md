@@ -1,4 +1,4 @@
-# ChaoXing ErYa Lessons Helper（超星尔雅课程助手）
+# ChaoXing ErYa Wisdom Tree Lessons Helper（超星尔雅、智慧树课程助手）
 
 本[脚本](ChaoXing-ErYa-Lessons-Helper.js)和[Chrome扩展插件](Chrome/ChaoXing-ErYa-Lessons-Helper.crx)适用于[超星尔雅慕课](http://erya.mooc.chaoxing.com/)(即观看视频网页地址满足 \*://*.chaoxing.com/mycourse/\* )(*表示省略）,若你的课程平台是[智慧树](https://www.zhihuishu.com/)，或者不会使用脚本，请参考[这篇文章](http://www.cnblogs.com/yinbiao/p/8721391.html)。
 
