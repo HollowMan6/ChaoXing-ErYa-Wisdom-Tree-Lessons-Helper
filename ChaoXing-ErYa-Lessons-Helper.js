@@ -1,5 +1,5 @@
 ﻿// ==UserScript==
-// @icon    https://ss0.baidu.com/73t1bjeh1BF3odCf/it/u=3507160010,2121752339&fm=77&s=1947387E66836BF52423D3FB0300A01E
+// @icon    icon.png
 // @name    超星尔雅课程助手 ChaoXing ErYa Lessons Helper
 // @description      课程自动切换，自动静音播放（默认静音），播放线路切换（手动配置参数） 
 //          Automatic course switching, automatic silent playback (default silence), play line switching (manual configuration of parameters)

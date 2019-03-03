@@ -1,5 +1,5 @@
 ﻿// ==UserScript==
-// @icon    https://ss0.baidu.com/73t1bjeh1BF3odCf/it/u=3507160010,2121752339&fm=77&s=1947387E66836BF52423D3FB0300A01E
+// @icon    icon.png
 // @name    智慧树课程助手 Wisdom Tree Lessons Helper
 // @description      课程自动切换，自动1.5倍速播放 
 //          Course automatic switching, automatic 1.5 times speed playback
