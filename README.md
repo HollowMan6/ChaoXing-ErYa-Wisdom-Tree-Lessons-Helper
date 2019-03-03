@@ -1,10 +1,10 @@
 # ChaoXing ErYa Lessons Helper（超星尔雅课程助手）
 
-本脚本适用于超星、尔雅慕课(即网页地址满足 \*://*.chaoxing.com/mycourse/\* ）（*表示省略）,若你的课程平台是智慧树，或者不会使用脚本，请参考[这篇文章](http://www.cnblogs.com/yinbiao/p/8721391.html)
+本脚本适用于[超星尔雅慕课](http://erya.mooc.chaoxing.com/)(即观看视频网页地址满足 \*://*.chaoxing.com/mycourse/\* ）（*表示省略）,若你的课程平台是[智慧树](https://www.zhihuishu.com/)，或者不会使用脚本，请参考[这篇文章](http://www.cnblogs.com/yinbiao/p/8721391.html)
 
 优势：操作简单，无需安装配套软件，可视进度，安全;
 
-开启时只需点击按钮。如果想停止请刷新页面。
+开启时只需点击按钮。如果想停止本脚本请刷新页面。
 
 如果你觉得验证码或视频中的弹题很讨厌，请尝试也建议向兼容 AdBlock Plus 语法的广告过滤扩展添加这条自定义规则：
 
@@ -45,3 +45,53 @@ playline[1].nextElementSibling.click();
 因为时间有限，所以脚本做得有些简单，很有可能不太稳定，欢迎大家进行完善。
 
 测试时间：2019年3月2日，不能保证脚本一直有效；
+
+
+## English version
+
+This script is suitable for [ChaoXing Erya MOOC](http://erya.mooc.chaoxing.com/) (i.e. web address meets *: /*. chaoxing. com/mycourse /*)(* denotes ellipsis). If your course platform is [Wisdom Tree](https://www.zhihuishu.com/) or you don't know how to use scripts, please refer to [this article](http://www.cnblogs.com/yinbiao/p/8721391.html)(Chinese Version).
+
+Advantages: simple operation, no need to install supporting software, visual progress, safety;
+
+Just click the button when you open it. Refresh the page if you want to stop.
+
+If you find the bullet problem in the authentication code or video annoying, try and recommend adding this custom rule to the AdBlock Plus grammar-compatible ad filtering extension as well:
+
+---
+\*.chaoxing.com/richvideo/initdatawithviewer\*
+
+---
+
+## Functions
+
+Support automatic course switching, automatic silent playback (default silence), play line switching (manual configuration of parameters);
+
+If you want more functions, such as automatic doing quizs, a lesson done in 5 seconds (all high-risk bad behavior) and quality switching, please [refer to here](https://poxiaobbs.com/thread-3268-1-1.html)(scripts are not tested by me and seem to be invalid)(Chinese Version);
+
+It is suggested that with the help of some Wechat public accounts such as 小马搜题订阅号，问答库，殿下网络互联 , the questions after each lesson should be done by yourself.
+
+Known problem: Video that has been displayed will not automatically switch play lines.
+
+## Configuration of playback lines
+
+It is recommended that F12 enter developer mode under Google Browser, then switch to console. On the premise that the video has been loaded, first enter the following commands:
+
+---
+let playline = $("iframe").contents().find("iframe").contents().find("li.vjs-menu-item.vjs-selected");
+
+---
+
+Then increase the variable 'i' of the following command from 0 to try. When you see the line name displayed, remenber the value of 'i' and modify the corresponding place of the script:
+
+---
+playline[1].nextElementSibling.click();
+
+---
+
+If you don't want to switch lines, you can clean up the parts included in the notes "Switching lines" and "Preventing problems caused by multiple unsuccessful switching lines", and clean up the variables 'errors' and 'n' together.
+
+## Statement: I will not bear any responsibility for the adverse consequences of using this script in any improper way.
+
+Because of the limited time, the script is a little simple and probably not stable. Modifying and improving it is welcomed.
+
+Test time: March 2, 2019, can not guarantee that the script has been valid;
