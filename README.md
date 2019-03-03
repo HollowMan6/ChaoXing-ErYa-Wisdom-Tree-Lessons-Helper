@@ -1,6 +1,6 @@
 # ChaoXing ErYa Lessons Helper（超星尔雅课程助手）
 
-本脚本适用于超星、尔雅慕课(即网页地址满足*://*.chaoxing.com/mycourse/*）（*表示省略）,若你的课程平台是智慧树，或者不会使用脚本，请参考[这篇文章](http://www.cnblogs.com/yinbiao/p/8721391.html)
+本脚本适用于超星、尔雅慕课(即网页地址满足 \*://*.chaoxing.com/mycourse/\* ）（*表示省略）,若你的课程平台是智慧树，或者不会使用脚本，请参考[这篇文章](http://www.cnblogs.com/yinbiao/p/8721391.html)
 
 优势：操作简单，无需安装配套软件，可视进度，安全;
 
