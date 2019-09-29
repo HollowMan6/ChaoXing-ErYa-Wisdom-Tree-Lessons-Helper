@@ -4,58 +4,53 @@
 // @description      课程自动切换，自动1.5倍速播放 
 //          Course automatic switching, automatic 1.5 times speed playback
 // @supportURL  http://www.cnblogs.com/yinbiao/p/8721391.html
-// @match   *://study.zhihuishu.com/learning/videoList*
+// @match   *://study.zhihuishu.com/learningNew/videoList*
 // ==/UserScript==
 
-function timeCount() {
-    if (document.getElementById('popbox_title')) {
-        var x = document.getElementsByClassName('popbtn_cancel');
-        window.clearInterval();
-        x[0].click();
-        console.log('关闭窗口');
-    }
-}
-
-var time = 0;
-var father = document.getElementById("my");
-var divs = document.createElement("div");
-divs.id = 'mybutton';
-divs.style.position = 'fixed';
-divs.style.left = '150px';
-divs.style.top = '100px';
-divs.style.width = '72px';
-divs.style.height = '72px';
-divs.style.backgroundImage = "url('data:image/png;base64,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')";
-divs.onclick = function () {
-    setTimeout(function () {
-        console.log('切换到1.5倍 Switch to 1.5 times Playback');
-        document.getElementsByClassName('speedTab15')[0].click();
-    }, 5000);
-    if (time === 0) {
-        alert('已经启动,可以最小化了 Started, the page can be minimized');
-    } else {
-        console.log('第二次初始化 Second initialization');
-    }
-
-    //视频播放暂停 Video playback pause
-    document.getElementById("vjs_mediaplayer_html5_api").onpause = function () {
-        console.log('已暂停 Pause');
-        window.setInterval(timeCount(), 700);
-
-    };
-
-    //视频播放结束 End of Video Playing
-    document.getElementById("vjs_mediaplayer_html5_api").onended = function () {
-        console.log('已结束 End');
-        setTimeout(function () {
-            //document.getElementsByClassName('next_lesson_bg tm_next_lesson')[0].click();
-            document.getElementById('nextBtn').click();
-
-            setTimeout(function () {
-                time = 1;
-                divs.click();
-            }, 5000);
-        }, 2500);
-    };
+//按钮参数设置 Button Parameters Setting
+var fa = $("body");
+var btn = $("<li></li>");
+var json = {
+    "background": "#31E16D",
+    "height": "16px",
+    "padding": "5px",
+    "z-index": 999999,
+    "cursor": "pointer",
+    "top": "225px",
+    "right": "120px",
+    "position": "fixed"
 };
-document.body.appendChild(divs);
+btn.css(json);
+//Click to turn on Open Autoplay Mode
+btn.html("<span id='lfsenior'>点击开启自动播放模式</span>");
+fa.append(btn);
+
+//以下代码请勿轻易修改！Do not modify the following codes without deep thoughts!
+btn.click(function () {
+    setInterval(function () {
+        // 设置清晰度为流畅
+        if ($('.line1gq').hasClass('active')) {
+            $('.line1bq').click();
+        }
+        // 设置1.5倍速
+        $('.speedTab15').click();
+        // 静音
+        setTimeout(function () {
+            if (!$('.volumeBox').hasClass('volumeNone')) {
+                $('.volumeIcon').click();
+            }
+        }, 500);
+        // 关闭弹题
+        if ($('.isExamFinish')) {
+            $('.isExamFinish').val('0');
+            setTimeout(function () {
+                $('.popboxes_close.tmui_txt_hidd').click();
+            }, 500);
+        }
+        // 自动播放下一集
+        if (($('.currentTime').text() == $('.duration').text()) && $('.currentTime').text() != '00:00:00') {
+            $('#nextBtn').click();
+        }
+        $("#lfsenior").html("自动模式已开启");
+    }, 500);
+});

@@ -5,7 +5,7 @@
 
 本[脚本](ChaoXing-ErYa-Lessons-Helper.js)和[Chrome扩展插件](Chrome/ChaoXing-ErYa-Lessons-Helper.crx)适用于[超星尔雅慕课](http://erya.mooc.chaoxing.com/)(即观看视频网页地址满足 \*://*.chaoxing.com/mycourse/\* )(*表示省略）,若你的课程平台是[智慧树](https://www.zhihuishu.com/)，或者不会使用脚本，请参考[这篇文章](http://www.cnblogs.com/yinbiao/p/8721391.html)。
 
-参考上述文章，我也配置了**智慧树课程助手**[脚本](Wisdom-Tree/Wisdom-Tree-Lessons-Helper.js)和[Chrome扩展插件](Chrome/Wisdom-Tree-Lessons-Helper.crx)。
+参考[Github上的这个项目](https://github.com/GarlenMa/ZhihuishuCourse)，我也配置了**智慧树课程助手**[脚本](Wisdom-Tree/Wisdom-Tree-Lessons-Helper.js)和[Chrome扩展插件](Chrome/Wisdom-Tree-Lessons-Helper.crx)。
 
 ***优势***：操作简单，无需安装配套软件，可视进度，安全;
 
@@ -91,7 +91,7 @@ playline[1].nextElementSibling.click();
 
 The [script](ChaoXing-ErYa-Lessons-Helper.js) and [Chrome extension plug-ins](Chrome/ChaoXing-ErYa-Lessons-Helper.crx) are suitable for **[ChaoXing Erya MOOC](http://erya.mooc.chaoxing.com/)** (i.e. web address meets \*://*.chaoxing.com/mycourse/\*)(* denotes ellipsis). If your course platform is **[Wisdom Tree](https://www.zhihuishu.com/)** or you don't know how to use scripts, please refer to [this article](http://www.cnblogs.com/yinbiao/p/8721391.html)(Chinese Version).
 
-Referring to the above article, I also configure **Wisdom-Tree-Lessons-Helper** [Script](Wisdom-Tree/Wisdom-Tree-Lessons-Helper.js) and [Chrome extension plug-ins](Chrome/Wisdom-Tree-Lessons-Helper.crx).
+Referring to that [Repository on the Github](https://github.com/GarlenMa/ZhihuishuCourse), I also configure **Wisdom-Tree-Lessons-Helper** [Script](Wisdom-Tree/Wisdom-Tree-Lessons-Helper.js) and [Chrome extension plug-ins](Chrome/Wisdom-Tree-Lessons-Helper.crx).
 
 ***Advantages***: simple operation, no need to install supporting software, visual progress, safety;
 

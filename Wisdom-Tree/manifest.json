@@ -12,6 +12,6 @@
     ],
     "web_accessible_resources": ["Wisdom-Tree-Lessons-Helper.js"],
     "content_scripts": [
-      {"js":["inject.js"],"matches":["*://study.zhihuishu.com/learning/videoList*"]}
+      {"js":["inject.js"],"matches":["*://study.zhihuishu.com/learningNew/videoList*"]}
     ]
   }
