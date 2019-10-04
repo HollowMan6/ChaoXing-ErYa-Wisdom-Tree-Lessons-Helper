@@ -54,7 +54,7 @@ btn.click(function () {
             var jy = video.find("#video > div.vjs-control-bar > div.vjs-volume-panel.vjs-control.vjs-volume-panel-vertical > button");
             //Mute
             if (jy.attr("title") != "取消静音") {
-                jy.click()
+                jy.click();
             }
         }
         //如果正在加载 If Loading
