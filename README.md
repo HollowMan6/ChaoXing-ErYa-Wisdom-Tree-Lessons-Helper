@@ -1,9 +1,21 @@
-# ChaoXing ErYa Wisdom Tree Lessons Helper（超星尔雅、智慧树课程助手）
+# 超星尔雅、智慧树课程助手
 
-[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
+[![last-commit](https://img.shields.io/github/last-commit/HollowMan6/ChaoXing-ErYa-Wisdom-Tree-Lessons-Helper)](../../graphs/commit-activity)
+[![release-date](https://img.shields.io/github/release-date/HollowMan6/ChaoXing-ErYa-Wisdom-Tree-Lessons-Helper)](../../releases)
+
+[![Followers](https://img.shields.io/github/followers/HollowMan6?style=social)](https://github.com/HollowMan6?tab=followers)
+[![watchers](https://img.shields.io/github/watchers/HollowMan6/ChaoXing-ErYa-Wisdom-Tree-Lessons-Helper?style=social)](../../watchers)
+[![stars](https://img.shields.io/github/stars/HollowMan6/ChaoXing-ErYa-Wisdom-Tree-Lessons-Helper?style=social)](../../stargazers)
+[![forks](https://img.shields.io/github/forks/HollowMan6/ChaoXing-ErYa-Wisdom-Tree-Lessons-Helper?style=social)](../../stargazers)
+
+[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://hollowman6.github.io/fund.html)
 [![GPL Licence](https://badges.frapsoft.com/os/gpl/gpl.svg?v=103)](https://opensource.org/licenses/GPL-3.0/)
+[![Repo-Size](https://img.shields.io/github/repo-size/HollowMan6/ChaoXing-ErYa-Wisdom-Tree-Lessons-Helper.svg)](../../archive/master.zip)
+
 [![Total alerts](https://img.shields.io/lgtm/alerts/g/HollowMan6/ChaoXing-ErYa-Wisdom-Tree-Lessons-Helper.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/HollowMan6/ChaoXing-ErYa-Wisdom-Tree-Lessons-Helper/alerts/)
 [![Language grade: JavaScript](https://img.shields.io/lgtm/grade/javascript/g/HollowMan6/ChaoXing-ErYa-Wisdom-Tree-Lessons-Helper.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/HollowMan6/ChaoXing-ErYa-Wisdom-Tree-Lessons-Helper/context:javascript)
+
+(English version is down below)
 
 本[脚本](ChaoXing-ErYa-Lessons-Helper.js)和[Chrome扩展插件](Chrome/ChaoXing-ErYa-Lessons-Helper.crx)适用于[超星尔雅慕课](http://erya.mooc.chaoxing.com/)(即观看视频网页地址满足 \*://*.chaoxing.com/mycourse/\* )(*表示省略）,若你的课程平台是[智慧树](https://www.zhihuishu.com/)，或者不会使用脚本，请参考[这篇文章](http://www.cnblogs.com/yinbiao/p/8721391.html)。
 
@@ -17,7 +29,7 @@
 
 如果你觉得**验证码或视频中的弹题**很讨厌，请尝试也建议向兼容 **AdBlock Plus** 语法的广告过滤扩展添加这条自定义规则：
 
-```JavaScript
+```Text
 *.chaoxing.com/richvideo/initdatawithviewer*
 ```
 
@@ -89,7 +101,7 @@ playline[1].nextElementSibling.click();
 最新测试时间：***2019年9月12日***，不能保证脚本在此之后**一直有效**；
 
 
-# English version
+# ChaoXing ErYa Wisdom Tree Lessons Helper
 
 The [script](ChaoXing-ErYa-Lessons-Helper.js) and [Chrome extension plug-ins](Chrome/ChaoXing-ErYa-Lessons-Helper.crx) are suitable for **[ChaoXing Erya MOOC](http://erya.mooc.chaoxing.com/)** (i.e. web address meets \*://*.chaoxing.com/mycourse/\*)(* denotes ellipsis). If your course platform is **[Wisdom Tree](https://www.zhihuishu.com/)** or you don't know how to use scripts, please refer to [this article](http://www.cnblogs.com/yinbiao/p/8721391.html)(Chinese Version).
 
@@ -103,7 +115,7 @@ At the same time, you can also download this folder locally and using the plugin
 
 If you find the the authentication code or questions block you from playing video annoying, try and recommend adding this custom rule to the AdBlock Plus grammar-compatible ad filtering extension as well:
 
-```JavaScript
+```Text
 *.chaoxing.com/richvideo/initdatawithviewer*
 ```
 
