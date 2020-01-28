@@ -30,7 +30,7 @@ fa.append(btn);
 btn.click(function () {
     //var n = 2, errors = 0;
     while (document.getElementsByClassName(" currents")[0].title != "视频") {
-        document.getElementsByClassName("orientationright ")[1].click()
+        document.getElementsByClassName("orientationright ")[0].click()
     }
     setInterval(function () {
         let playline = $("iframe").contents().find("iframe").contents().find("li.vjs-menu-item.vjs-selected");
@@ -71,7 +71,7 @@ btn.click(function () {
         //如果播放结束 If the playback ends
         if (spans == 100) {
             //跳转到下一课 Jump to the next course
-            document.getElementsByClassName("orientationright ")[1].click()
+            document.getElementsByClassName("orientationright ")[0].click()
             //参数重置 Parameters Reset
             //n = 2,  errors = 0;
         }
