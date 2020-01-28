@@ -29,7 +29,7 @@ fa.append(btn);
 //以下代码请勿轻易修改！Do not modify the following codes without deep thoughts!
 btn.click(function () {
     //var n = 2, errors = 0;
-    while (document.getElementsByClassName(" currents")[0].title != "视频") {
+    while (document.getElementsByClassName(" currents")[0].title != "视频" && document.getElementsByClassName(" currents").length!=1) {
         document.getElementsByClassName("orientationright ")[0].click()
     }
     setInterval(function () {
