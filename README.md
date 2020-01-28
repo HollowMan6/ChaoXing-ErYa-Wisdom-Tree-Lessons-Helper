@@ -59,46 +59,13 @@ playline[1].nextElementSibling.click();
 
 如果不想切换线路，则可以将**切换线路**和**防止切换线路多次不成功导致的问题**注释包括的部分进行清理，并一并清理变量**errors**和**n**;
 
-## 自动跳转课程配置
-
-默认的自动跳转课程方法适用于绝大部分课程的自动播放，但是也有一些课程会遇上问题，具体表现为只自动跳转播放相应章的第一节，遇到这种情况时，我们需要针对这种特殊课程更改“跳转到下一课”注释下的全部内容为以下代码：
-
-```JavaScript
-//跳转到下一课 Jump to the next course
-            try {
-                tmp = $("h4.currents")[0].parentElement.nextElementSibling.children[0];
-            }
-            catch (err) { 
-                try {
-                    tmp = $("h4.currents")[0].parentElement.parentElement.nextElementSibling.children[0];
-                }
-                catch (err) {$("h4.currents")[0].parentElement.parentElement.nextElementSibling.children[0];}
-            }
-            if (tmp.hasAttribute('href')) {
-                if (tmp.href != "javascript:void") {
-                    tmp.children[0].click();
-                }
-            }
-            else {
-                try {
-                    tmp = tmp.parentElement;
-                }
-                catch (err) {
-                    tmp = tmp.parentElement.children[1].children[0];
-                }
-                if (tmp.href != "javascript:void") {
-                    tmp.children[0].click();
-                }
-            }
-```
-
 ## ***声明：将本脚本运用于任何不正当途径所产生的不良后果，本人将不承担任何责任。***
 
 因为时间有限，所以脚本做得有些简单，很有可能不太稳定，欢迎大家进行完善。
 
 因为中国互联网审查机制，本人不能将此插件上传至Chrome应用商店，因此我在此授权，在通知本人的情况下，欢迎有能力的人将此插件发布在Chrome应用商店上。
 
-最新测试时间：***2019年9月12日***，不能保证脚本在此之后**一直有效**；
+最新测试时间：***2020年1月29日***，不能保证脚本在此之后**一直有效**；
 
 
 # ChaoXing ErYa Wisdom Tree Lessons Helper
@@ -145,43 +112,10 @@ playline[1].nextElementSibling.click();
 
 If you don't want to switch lines, you can clean up the parts included in the notes **Switching lines** and **Preventing problems caused by multiple unsuccessful switching lines**, and clean up the variables **errors** and **n** together.
 
-## Automatic Jump Course Configuration
-
-The default method of automatic jump course is applicable to most courses, but there are also some courses that will encounter problems, such as only automatically jump to play the first section of the corresponding chapter. In this case, we need to change the whole content of the "Jump to the next course" annotation for this special course as follows The following code:
-
-```JavaScript
-//跳转到下一课 Jump to the next course
-            try {
-                tmp = $("h4.currents")[0].parentElement.nextElementSibling.children[0];
-            }
-            catch (err) { 
-                try {
-                    tmp = $("h4.currents")[0].parentElement.parentElement.nextElementSibling.children[0];
-                }
-                catch (err) {$("h4.currents")[0].parentElement.parentElement.nextElementSibling.children[0];}
-            }
-            if (tmp.hasAttribute('href')) {
-                if (tmp.href != "javascript:void") {
-                    tmp.children[0].click();
-                }
-            }
-            else {
-                try {
-                    tmp = tmp.parentElement;
-                }
-                catch (err) {
-                    tmp = tmp.parentElement.children[1].children[0];
-                }
-                if (tmp.href != "javascript:void") {
-                    tmp.children[0].click();
-                }
-            }
-```
-
 ## ***Statement: I will not bear any responsibility for the adverse consequences of using this script in any improper way.***
 
 Because of the limited time, the script is a little simple and probably not stable. Modifying and improving it is welcomed.
 
 Because of the Internet blocks in China, I can not upload this plug-in to the Chrome App Store, so I authorize you to publish the plug-in to the Chrome App Store if you have the ability to access Google App Store and inform me in advance.
 
-Latest Test time: ***September 12, 2019***, can not guarantee that the script will be always valid after the date;
+Latest Test time: ***January 12, 2020***, can not guarantee that the script will be always valid after the date;
