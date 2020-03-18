@@ -29,11 +29,10 @@ fa.append(btn);
 //以下代码请勿轻易修改！Do not modify the following codes without deep thoughts!
 btn.click(function () {
     //var n = 2, errors = 0;
-    while (document.getElementsByClassName(" currents")[0].title != "视频" && document.getElementsByClassName(" currents").length!=1) {
-        document.getElementsByClassName("orientationright ")[0].click()
-    }
     setInterval(function () {
-        let playline = $("iframe").contents().find("iframe").contents().find("li.vjs-menu-item.vjs-selected");
+        while (document.getElementsByClassName(" currents")[0].title.search("视频") == -1 && document.getElementsByClassName(" currents").length!=1) {
+            document.getElementsByClassName("orientationright ")[0].click()
+        }
         //获取iframe     get iframe
         var video = $("iframe").contents().find("iframe").contents();
         //播放函数 Playback Function
@@ -53,6 +52,7 @@ btn.click(function () {
         //获取当前进度 Get the current schedule
         var spans = video.find("#video > div.vjs-control-bar > div.vjs-progress-control.vjs-control > div").attr("aria-valuenow");
         // //切换线路 Switching lines
+        // let playline = $("iframe").contents().find("iframe").contents().find("li.vjs-menu-item.vjs-selected");
         // try {
         //     if (n > 0) {
         //         playline[1].nextElementSibling.click();
