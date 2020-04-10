@@ -24,28 +24,9 @@ btn.css(json);
 //Click to turn on Open Autoplay Mode
 btn.html("<span id='lfsenior'>点击开启自动播放模式</span>");
 fa.append(btn);
-var time, foretime, i, newPage;
 //以下代码请勿轻易修改！Do not modify the following codes without deep thoughts!
 btn.click(function () {
-    time = 1600;
-    foretime = 1600;
-    newPage = true
-    i = self.setInterval(function () {
-        if (newPage == true) {
-            while (true) {
-                if ($('.currentTime').text() != "") {
-                        foretime += TimeConvert($('.currentTime').text());
-                        break;
-                }
-            }
-            newPage = false
-        }
-        while (true) {
-            if ($('.currentTime').text() != "") {
-                time = foretime - TimeConvert($('.currentTime').text());
-                break;
-            }
-        }
+    self.setInterval(function () {
         $('.playButton').click();
         // 静音
         setTimeout(function () {
@@ -62,28 +43,8 @@ btn.click(function () {
         }
         // 自动播放下一集
         if (($('.currentTime').text() == $('.duration').text()) && $('.currentTime').text() != '00:00:00') {
-            while (true) {
-                if ($('.currentTime').text() != "") {
-                    foretime = time;
-                    break;
-                }
-            }
             $('#nextBtn').click();
-            newPage = true
         }
-        if (time <= 0) {
-            $("#lfsenior").html("点击开启自动播放模式");
-            time = 1600;
-            foretime = 1600;
-            $('.pauseButton').click();
-            i = window.clearInterval(i)
-            alert("时间到，每天1600秒的学习习惯分到手！");
-        }
-        else {
-            $("#lfsenior").html("自动模式已开启, 倒计时".concat(time.toString()));
-        }
+        $("#lfsenior").html("自动模式已开启");
     }, 1000);
 });
-function TimeConvert(string) {
-    return parseInt(string.split(":", 3)[0]) * 3600 + parseInt(string.split(":", 3)[1]) * 60 + parseInt(string.split(":", 3)[2])
-}

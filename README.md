@@ -18,7 +18,7 @@
 (English version is down below)
 
 本[脚本](ChaoXing-ErYa-Lessons-Helper.js)和[Chrome扩展插件](Chrome/ChaoXing-ErYa-Lessons-Helper.crx)适用于[超星尔雅慕课](http://erya.mooc.chaoxing.com/)(即观看视频网页地址满足 \*://*.chaoxing.com/mycourse/\* )(*表示省略）。
-参考[Github上的这个项目](https://github.com/GarlenMa/ZhihuishuCourse)，我也配置了**智慧树课程助手**[脚本](Wisdom-Tree/Wisdom-Tree-Lessons-Helper.js)和[Chrome扩展插件](Chrome/Wisdom-Tree-Lessons-Helper.crx)，支持课程自动切换，自动播放, 1600秒播放计时，助你获得学习习惯分。
+参考[Github上的这个项目](https://github.com/GarlenMa/ZhihuishuCourse)，我也配置了**智慧树课程助手**[脚本](Wisdom-Tree/Wisdom-Tree-Lessons-Helper.js)和[Chrome扩展插件](Chrome/Wisdom-Tree-Lessons-Helper.crx)，支持课程自动切换，自动播放。
 
 ***优势***：操作简单，无需安装配套软件，可视进度，安全;
 
@@ -68,7 +68,7 @@ playline[1].nextElementSibling.click();
 
 The [script](ChaoXing-ErYa-Lessons-Helper.js) and [Chrome extension plug-ins](Chrome/ChaoXing-ErYa-Lessons-Helper.crx) are suitable for **[ChaoXing Erya MOOC](http://erya.mooc.chaoxing.com/)** (i.e. web address meets \*://*.chaoxing.com/mycourse/\*)(* denotes ellipsis).
 
-Referring to that [Repository on the Github](https://github.com/GarlenMa/ZhihuishuCourse), I also configure **Wisdom-Tree-Lessons-Helper** [Script](Wisdom-Tree/Wisdom-Tree-Lessons-Helper.js) and [Chrome extension plug-ins](Chrome/Wisdom-Tree-Lessons-Helper.crx), which support automatic course switching and playing, and it ensures your grade for learning habits by countdownning 1600 seconds every time you use it.
+Referring to that [Repository on the Github](https://github.com/GarlenMa/ZhihuishuCourse), I also configure **Wisdom-Tree-Lessons-Helper** [Script](Wisdom-Tree/Wisdom-Tree-Lessons-Helper.js) and [Chrome extension plug-ins](Chrome/Wisdom-Tree-Lessons-Helper.crx), which support automatic course switching and playing.
 
 ***Advantages***: simple operation, no need to install supporting software, visual progress, safety;
 
