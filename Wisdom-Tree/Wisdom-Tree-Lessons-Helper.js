@@ -34,6 +34,8 @@ btn.click(function () {
                 $('.volumeIcon').click();
             }
         }, 500);
+        // 设置1.5倍速
+        $('.speedTab15').click();
         // 关闭弹题
         if ($('.isExamFinish')) {
             $('.isExamFinish').val('0');
