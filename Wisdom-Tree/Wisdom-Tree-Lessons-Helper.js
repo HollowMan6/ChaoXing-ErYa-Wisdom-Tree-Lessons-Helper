@@ -34,17 +34,13 @@ btn.click(function () {
                 $('.volumeIcon').click();
             }
         }, 500);
+        // 屏蔽弹题
+        $("#app > div > div.el-dialog__wrapper").remove()
+        $("body > div.v-modal").remove()
         // 设置1.5倍速
         $('.speedTab15').click();
-        // 关闭弹题
-        if ($('.isExamFinish')) {
-            $('.isExamFinish').val('0');
-            setTimeout(function () {
-                $('.popboxes_close.tmui_txt_hidd').click();
-            }, 500);
-        }
         // 自动播放下一集
-        if (($('.currentTime').text() == $('.duration').text()) && $('.currentTime').text() != '00:00:00') {
+        if ($('li.clearfix.video.current_play > div > b.fl.time_icofinish"').length>0||$('li.clearfix.video.current_play >div> div>b.fl.time_icofinish').length>0) {
             $('#nextBtn').click();
         }
         $("#lfsenior").html("自动模式已开启");
