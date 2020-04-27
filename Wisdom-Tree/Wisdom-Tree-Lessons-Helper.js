@@ -40,7 +40,7 @@ btn.click(function () {
         // 设置1.5倍速
         $('.speedTab15').click();
         // 自动播放下一集
-        if ($('li.clearfix.video.current_play > div > b.fl.time_icofinish"').length>0||$('li.clearfix.video.current_play >div> div>b.fl.time_icofinish').length>0) {
+        if ($('li.clearfix.video.current_play > div > b.fl.time_icofinish').length>0||$('li.clearfix.video.current_play >div> div>b.fl.time_icofinish').length>0) {
             $('#nextBtn').click();
         }
         $("#lfsenior").html("自动模式已开启");
