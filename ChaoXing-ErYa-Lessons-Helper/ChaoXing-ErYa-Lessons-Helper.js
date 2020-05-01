@@ -8,6 +8,16 @@
 // @match   *://*.chaoxing.com/mycourse/*
 // ==/UserScript==
 
+// by 'hollowman6' from Lanzhou University(兰州大学)
+
+// 警告：
+// 仅供测试使用，不可用于任何非法用途！
+// 对于使用本代码所造成的一切不良后果，本人将不负任何责任！
+
+// Warning:
+// For TESTING ONLY, not for any ILLIGAL USE!
+// I will not be responsible for any adverse consequences caused by using this code.
+
 //按钮参数设置 Button Parameters Setting
 var fa = $("body");
 var btn = $("<li></li>");
