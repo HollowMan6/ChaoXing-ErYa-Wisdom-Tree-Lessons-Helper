@@ -27,13 +27,13 @@
 
 ## 智慧树
 
-**智慧树课程助手**[脚本](Wisdom-Tree/Wisdom-Tree-Lessons-Helper.js)，[Chrome扩展插件](Chrome/Wisdom-Tree-Lessons-Helper.crx)适用于[智慧树慕课](https://www.zhihuishu.com/)(即观看视频网页地址满足 \*://studyh5.zhihuishu.com/videoStudy.html\*)。
+**智慧树课程助手**[脚本](Wisdom-Tree-Lessons-Helper/Wisdom-Tree-Lessons-Helper.js)，[Chrome扩展插件](Chrome-Extension/Wisdom-Tree-Lessons-Helper.crx)适用于[智慧树慕课](https://www.zhihuishu.com/)(即观看视频网页地址满足 \*://studyh5.zhihuishu.com/videoStudy.html\*)。
 
 支持课程自动切换，自动1.5倍速静音播放，屏蔽弹题。
 
 ## 超星尔雅
 
-本[脚本](ChaoXing-ErYa-Lessons-Helper.js)和[Chrome扩展插件](Chrome/ChaoXing-ErYa-Lessons-Helper.crx)适用于[超星尔雅慕课](http://erya.mooc.chaoxing.com/)(即观看视频网页地址满足 \*://*.chaoxing.com/mycourse/\* )。
+本[脚本](ChaoXing-ErYa-Lessons-Helper/ChaoXing-ErYa-Lessons-Helper.js)和[Chrome扩展插件](Chrome-Extension/ChaoXing-ErYa-Lessons-Helper.crx)适用于[超星尔雅慕课](http://erya.mooc.chaoxing.com/)(即观看视频网页地址满足 \*://*.chaoxing.com/mycourse/\* )。
 
 如果你觉得**验证码或视频中的弹题**很讨厌，请尝试也建议向兼容 **AdBlock Plus** 语法的广告过滤扩展添加这条自定义规则：
 
@@ -75,19 +75,19 @@ playline[1].nextElementSibling.click();
 
 Just **click the button** when you want to activate the function. **Refresh the page** if you want to stop.
 
-At the same time, you can also download this folder locally and using the plugin by adding it to Chrome's **Settings** -> **Extensions** -> **Developer Mode " turn on"** -> **Load Unpacked**.
+At the same time, you can also download this folder locally and using the Extensions by adding it to Chrome's **Settings** -> **Extensions** -> **Developer Mode " turn on"** -> **Load Unpacked**.
 
 Of course, if you are not using Google Chrome, you can also open the corresponding video playing page, press F12 to open the developer tool, copy the corresponding script code, paste it in console and press enter to continue the operation.
 
 ## Wisdom Tree
 
-**Wisdom-Tree-Lessons-Helper** [Script](Wisdom-Tree/Wisdom-Tree-Lessons-Helper.js) and [Chrome extension plug-ins](Chrome/Wisdom-Tree-Lessons-Helper.crx) are suitable for **[Wisdom Tree MOOC](https://www.zhihuishu.com/)(i.e. web address meets \*://studyh5.zhihuishu.com/videoStudy.html\*).
+**Wisdom-Tree-Lessons-Helper** [Script](Wisdom-Tree-Lessons-Helper/Wisdom-Tree-Lessons-Helper.js) and [Chrome-Extension](Chrome-Extension/Wisdom-Tree-Lessons-Helper.crx) are suitable for **[Wisdom Tree MOOC](https://www.zhihuishu.com/)(i.e. web address meets \*://studyh5.zhihuishu.com/videoStudy.html\*).
 
 Support automatic course switching, playing at 1.5x speed in mute mode and hide the popped in questions.
 
 ## ChaoXing ErYa
 
-The [script](ChaoXing-ErYa-Lessons-Helper.js) and [Chrome extension plug-ins](Chrome/ChaoXing-ErYa-Lessons-Helper.crx) are suitable for **[ChaoXing Erya MOOC](http://erya.mooc.chaoxing.com/)** (i.e. web address meets \*://*.chaoxing.com/mycourse/\*).
+The [script](ChaoXing-ErYa-Lessons-Helper/ChaoXing-ErYa-Lessons-Helper.js) and [Chrome-Extension](Chrome-Extension/ChaoXing-ErYa-Lessons-Helper.crx) are suitable for **[ChaoXing Erya MOOC](http://erya.mooc.chaoxing.com/)** (i.e. web address meets \*://*.chaoxing.com/mycourse/\*).
 
 If you find the Captcha or questions block you from playing video annoying, try to add this custom rule to the AdBlock Plus grammar-compatible AD block extension as well:
 
