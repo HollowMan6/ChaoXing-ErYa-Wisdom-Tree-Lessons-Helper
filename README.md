@@ -43,7 +43,7 @@
 
 支持 **课程自动切换，自动静音播放（默认静音），播放线路切换（需手动配置参数）;**
 
-想要**自动答题，5秒内一节课**（***都是高危不良行为***），**切换画质** 等功能的请绕道;
+想要**自动答题，5秒内一节课**（***都是高危不良行为***）等功能的请绕道;
 
 ***已知问题***：已经显示完成的视频再次播放或自动播放的过程中手动进行跳转视频的操作将无法自动切换线路。且切换线路不够智能，只能切换到最后一个线路。
 
@@ -97,7 +97,7 @@ If you find the Captcha or questions block you from playing video annoying, try 
 
 Support **automatic course switching, automatic silent playback (default silence), play line switching (manual configuration of parameters)**;
 
-If you want more functions, such as automatic doing quizs, a lesson done in 5 seconds (all high-risk bad behavior) and quality switching, this is not the right place and please go to others for help.
+If you want more functions, such as automatic doing quizs, a lesson done in 5 seconds (all high-risk recorded behavior), this is not the right place and please go to others for help.
 
 Known problem: The manual operation of jumping video in the process of replaying or playing the completed video will not automatically switch the Play line. Moreover,  the playline-switching function is not smart enough, and can only switch to the last line.
 
