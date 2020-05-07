@@ -3,7 +3,7 @@
   
     "name": "智慧树课程助手",
     "description": "课程自动切换，自动1.5倍速静音播放，屏蔽弹题",
-    "version": "5.1",
+    "version": "5.2",
     
     "icons": {
       "64" : "icon.png"

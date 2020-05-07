@@ -40,7 +40,7 @@ fa.append(btn);
 btn.click(function () {
     //var n = 2, errors = 0;
     setInterval(function () {
-        while (document.getElementsByClassName(" currents")[0].title.search("视频") == -1 && document.getElementsByClassName(" currents").length!=1) {
+        while ($("iframe").contents().find("iframe").length==0) {
             document.getElementsByClassName("orientationright ")[0].click()
         }
         //获取iframe     get iframe
