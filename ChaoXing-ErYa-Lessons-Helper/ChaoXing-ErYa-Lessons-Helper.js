@@ -40,9 +40,18 @@ fa.append(btn);
 btn.click(function () {
     //var n = 2, errors = 0;
     setInterval(function () {
-        while ($("iframe").contents().find("iframe").length==0) {
-            document.getElementsByClassName("orientationright ")[0].click()
+        while (document.getElementsByClassName(" currents")[0].title.search("视频") == -1 && document.getElementsByClassName(" currents").length!=1) {
+            document.getElementsByClassName("orientationright ")[0].click();
         }
+       // 如果遇到同一课程小节多标签未标“视频”字样无法跳转问题，请在确保网络状况良好的情况下使用下面注释的while语句。
+        // while ($("iframe").contents().find("iframe").length==0) {
+        //     var date = new Date();
+        //     var curDate = null;
+        //     do { curDate = new Date(); }
+        //     while(curDate-date < 2000);
+        //     document.getElementsByClassName("orientationright ")[0].click();
+        // }
+
         //获取iframe     get iframe
         var video = $("iframe").contents().find("iframe").contents();
         //播放函数 Playback Function
@@ -81,7 +90,7 @@ btn.click(function () {
         //如果播放结束 If the playback ends
         if (spans == 100) {
             //跳转到下一课 Jump to the next course
-            document.getElementsByClassName("orientationright ")[0].click()
+            document.getElementsByClassName("orientationright ")[0].click();
             //参数重置 Parameters Reset
             //n = 2,  errors = 0;
         }
