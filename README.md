@@ -8,8 +8,8 @@
 [![stars](https://img.shields.io/github/stars/HollowMan6/ChaoXing-ErYa-Wisdom-Tree-Lessons-Helper?style=social)](../../stargazers)
 [![forks](https://img.shields.io/github/forks/HollowMan6/ChaoXing-ErYa-Wisdom-Tree-Lessons-Helper?style=social)](../../network/members)
 
-[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://hollowman6.github.io/fund.html)
-[![GPL Licence](https://badges.frapsoft.com/os/gpl/gpl.svg?v=103)](https://opensource.org/licenses/GPL-3.0/)
+[![Open Source Love](https://img.shields.io/badge/-%E2%9D%A4%20Open%20Source-Green?style=flat-square&logo=Github&logoColor=white&link=https://hollowman6.github.io/fund.html)](https://hollowman6.github.io/fund.html)
+[![GPL Licence](https://img.shields.io/badge/license-GPL-blue)](https://opensource.org/licenses/GPL-3.0/)
 [![Repo-Size](https://img.shields.io/github/repo-size/HollowMan6/ChaoXing-ErYa-Wisdom-Tree-Lessons-Helper.svg)](../../archive/master.zip)
 
 [![Total alerts](https://img.shields.io/lgtm/alerts/g/HollowMan6/ChaoXing-ErYa-Wisdom-Tree-Lessons-Helper.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/HollowMan6/ChaoXing-ErYa-Wisdom-Tree-Lessons-Helper/alerts/)
