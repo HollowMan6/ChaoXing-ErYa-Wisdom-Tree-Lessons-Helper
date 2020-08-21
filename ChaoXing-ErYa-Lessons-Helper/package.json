@@ -1,5 +1,5 @@
 {
-  "name": "chaoxing-erya-lessons-helper",
+  "name": "@hollowman6/chaoxing-erya-lessons-helper",
   "version": "5.2.0",
   "description": "ChaoXing ErYa Lessons Helper（超星尔雅课程助手）",
   "main": "ChaoXing-ErYa-Lessons-Helper.js",
