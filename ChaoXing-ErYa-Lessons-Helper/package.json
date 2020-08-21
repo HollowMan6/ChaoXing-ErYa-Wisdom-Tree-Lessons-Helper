@@ -1,0 +1,25 @@
+{
+  "name": "chaoxing-erya-lessons-helper",
+  "version": "5.2.0",
+  "description": "ChaoXing ErYa Lessons Helper（超星尔雅课程助手）",
+  "main": "ChaoXing-ErYa-Lessons-Helper.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@github.com/HollowMan6/ChaoXing-ErYa-Wisdom-Tree-Lessons-Helper.git",
+    "directory": "ChaoXing-ErYa-Lessons-Helper"
+  },
+  "keywords": [
+    "Lesson",
+    "Helper"
+  ],
+  "author": "Hollow Man",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/HollowMan6/ChaoXing-ErYa-Wisdom-Tree-Lessons-Helper/issues"
+  },
+  "homepage": "https://github.com/HollowMan6/ChaoXing-ErYa-Wisdom-Tree-Lessons-Helper#readme",
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" }
+}
