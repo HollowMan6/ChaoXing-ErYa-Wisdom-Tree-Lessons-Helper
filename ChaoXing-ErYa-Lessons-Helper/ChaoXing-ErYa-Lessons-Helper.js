@@ -96,6 +96,6 @@ btn.click(function () {
         }
         //显示播放进度 Display playback progress
         //Automation mode has been opened. Progress of this lesson is as follows:
-        $("#lfsenior").html("自动模式已开启,本章进度:" + spans + "%");
+        $("#lfsenior").html("自动模式已开启,本章进度:" + spans + "%"); // lgtm [js/xss-through-dom]
     }, 100);
 });
