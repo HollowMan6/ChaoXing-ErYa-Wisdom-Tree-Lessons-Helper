@@ -1,6 +1,6 @@
 {
   "name": "@hollowman6/wisdom-tree-lessons-helper",
-  "version": "5.2.0",
+  "version": "5.2.1",
   "description": "Wisdom Tree Lessons Helper（智慧树课程助手）",
   "main": "Wisdom-Tree-Lessons-Helper.js",
   "scripts": {
@@ -21,5 +21,7 @@
     "url": "https://github.com/HollowMan6/ChaoXing-ErYa-Wisdom-Tree-Lessons-Helper/issues"
   },
   "homepage": "https://github.com/HollowMan6/ChaoXing-ErYa-Wisdom-Tree-Lessons-Helper#readme",
-  "publishConfig": { "registry": "https://npm.pkg.github.com/" }
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  }
 }
