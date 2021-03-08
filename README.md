@@ -63,11 +63,13 @@ playline[1].nextElementSibling.click();
 
 如果不想切换线路，则可以将**切换线路**和**防止切换线路多次不成功导致的问题**注释包括的部分进行清理，并一并清理变量**errors**和**n**;
 
+## 如果遇到某一章空白无任何视频内容，或者遇到同一课程小节多标签未标“视频”字样无法跳转问题，请手动取消源代码中相关注释并使用。
+
 ## **_声明：将本脚本运用于任何不正当途径所产生的不良后果，本人将不承担任何责任。_**
 
 因为时间有限，所以脚本做得有些简单，很有可能不太稳定，欢迎大家进行完善。
 
-智慧树最新测试时间：**_2020 年 9 月 12 日_**，超星尔雅最新测试时间：**_2021 年 3 月 8 日_**，不能保证脚本在此之后**一直有效**；
+智慧树最新测试时间：**_2020 年 9 月 12 日_**，超星尔雅最新测试时间：**_2021 年 3 月 9 日_**，不能保证脚本在此之后**一直有效**；
 
 # ChaoXing ErYa Wisdom Tree Lessons Helper
 
@@ -117,8 +119,10 @@ playline[1].nextElementSibling.click();
 
 If you don't want to switch lines, you can clean up the parts included in the notes **Switching lines** and **Preventing problems caused by multiple unsuccessful switching lines**, and clean up the variables **errors** and **n** together.
 
+## If you encounter a blank chapter without any video content, or if you encounter a problem that multiple labels of the same course section are not marked with `视频` and can not jump, please manually cancel the related comment in the source code and use it.
+
 ## **_Statement: I will not bear any responsibility for the adverse consequences of using this script in any improper way._**
 
 Because of the limited time, the script is a little simple and probably not stable. Modifying and improving it is welcomed.
 
-Wisdom Tree Latest Test time: **_Sep 12, 2020_**, ChaoXing ErYa Latest Test time: **_Mar 8, 2021_**, can not guarantee that the script will be always valid after the date;
+Wisdom Tree Latest Test time: **_Sep 12, 2020_**, ChaoXing ErYa Latest Test time: **_Mar 9, 2021_**, can not guarantee that the script will be always valid after the date;
