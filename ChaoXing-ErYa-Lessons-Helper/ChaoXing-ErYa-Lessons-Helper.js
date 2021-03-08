@@ -41,6 +41,8 @@ btn.click(function () {
   //var n = 2, errors = 0;
   setInterval(function () {
     while (
+      // 如果遇到某一章空白无任何视频内容，请取消注释以下内容跳过。
+      // document.getElementsByClassName("c1 currents").length == 0 ||
       document.getElementsByClassName(" currents")[0].title.search("视频") ==
         -1 &&
       document.getElementsByClassName(" currents").length != 1
@@ -72,8 +74,8 @@ btn.click(function () {
       var rate = video.find(
         "#video > div.vjs-control-bar > div.vjs-playback-rate.vjs-menu-button.vjs-menu-button-popup.vjs-button > button"
       );
-      if (rate.length > 0) {
-        var rateMenu = rate[0].parentNode.childNodes;
+      for (var i = 0; i < rate.length; i++) {
+        var rateMenu = rate[i].parentNode.childNodes;
         if (rateMenu.length > 0) {
           var rateList = rateMenu[1].childNodes[0].childNodes;
           if (rateList.length > 0) {

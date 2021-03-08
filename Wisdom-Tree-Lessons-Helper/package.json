@@ -1,6 +1,6 @@
 {
   "name": "@hollowman6/wisdom-tree-lessons-helper",
-  "version": "5.2.2",
+  "version": "5.2.3",
   "description": "Wisdom Tree Lessons Helper（智慧树课程助手）",
   "main": "Wisdom-Tree-Lessons-Helper.js",
   "scripts": {
