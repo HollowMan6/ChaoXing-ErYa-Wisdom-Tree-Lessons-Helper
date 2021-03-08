@@ -1,6 +1,6 @@
 {
   "name": "chaoxing-erya-wisdom-tree-lessons-helper",
-  "version": "5.2.1",
+  "version": "5.2.2",
   "description": "ChaoXing ErYa Lessons Helper（超星尔雅课程助手）Wisdom Tree Lessons Helper（智慧树课程助手）",
   "dependencies": {
     "eslint": "^7.21.0",

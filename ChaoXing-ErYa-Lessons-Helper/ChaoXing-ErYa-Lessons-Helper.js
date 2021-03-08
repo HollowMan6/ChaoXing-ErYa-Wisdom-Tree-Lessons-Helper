@@ -68,6 +68,19 @@ btn.click(function () {
       if (jy.attr("title") != "取消静音") {
         jy.click();
       }
+      //Rate
+      var rate = video.find(
+        "#video > div.vjs-control-bar > div.vjs-playback-rate.vjs-menu-button.vjs-menu-button-popup.vjs-button > button"
+      );
+      if (rate.length > 0) {
+        var rateMenu = rate[0].parentNode.childNodes;
+        if (rateMenu.length > 0) {
+          var rateList = rateMenu[1].childNodes[0].childNodes;
+          if (rateList.length > 0) {
+            rateList[0].click();
+          }
+        }
+      }
     };
     //如果正在加载 If Loading
     var load = video.find("#loading");
