@@ -1,7 +1,7 @@
 ﻿// ==UserScript==
 // @icon    icon.png
 // @name    超星尔雅课程助手 ChaoXing ErYa Lessons Helper
-// @description      课程自动切换，自动静音播放（默认静音），播放线路切换（手动配置参数）
+// @description      课程自动切换，自动静音播放（默认静音），自动倍速播放（如果可用），播放线路切换（手动配置参数）
 //          Automatic course switching, automatic silent playback (default silence), play line switching (manual configuration of parameters)
 // @author  HollowMan
 // @supportURL  https://github.com/HollowMan6/ChaoXing-ErYa-Lessons-Helper
