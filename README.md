@@ -69,7 +69,7 @@ playline[1].nextElementSibling.click();
 
 因为时间有限，所以脚本做得有些简单，很有可能不太稳定，欢迎大家进行完善。
 
-智慧树最新测试时间：**_2020 年 9 月 12 日_**，超星尔雅最新测试时间：**_2021 年 3 月 9 日_**，不能保证脚本在此之后**一直有效**；
+智慧树最新测试时间：**_2021 年 5 月 12 日_**，超星尔雅最新测试时间：**_2021 年 5 月 12 日_**，不能保证脚本在此之后**一直有效**；
 
 # ChaoXing ErYa Wisdom Tree Lessons Helper
 
@@ -125,4 +125,4 @@ If you don't want to switch lines, you can clean up the parts included in the no
 
 Because of the limited time, the script is a little simple and probably not stable. Modifying and improving it is welcomed.
 
-Wisdom Tree Latest Test time: **_Sep 12, 2020_**, ChaoXing ErYa Latest Test time: **_Mar 9, 2021_**, can not guarantee that the script will be always valid after the date;
+Wisdom Tree Latest Test time: **_May 12, 2021_**, ChaoXing ErYa Latest Test time: **_May 12, 2021_**, can not guarantee that the script will be always valid after the date;
